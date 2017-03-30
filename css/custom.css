@@ -1,0 +1,130 @@
+body {
+	font-family: 'tahoma', sans-serif;
+}
+
+#main-container {
+	width: 100%;
+	margin: auto;
+}
+
+#logo {
+	width: 236px;
+	height: 85px;
+	margin-left: 20px;
+}
+
+.navbar-toggle {
+	background-color: #477591;
+}
+
+
+.navbar-inverse {
+	background-color: #b3212f;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #477591;
+	font-size: 20px;
+	margin-left: 70px;
+	text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #b3212f;
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 85px;
+  background-color: #010a11;
+  padding-top: 20px;
+}
+
+#search-container {
+	padding-top: 85px;
+}
+
+#search-container img {
+	width: 474px;
+	float:left;
+}
+
+.stripes-bg {
+	background-image: url('../images/stripes_bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.title {
+	width: 100%;
+	height: 85px;
+	font-size: 24px;
+	text-align: center;
+	background-color: #600109;
+	color: #d0606c;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+
+.contact-card-container-federal {
+	min-width: 470px;
+}
+
+.contact-card {
+	width: 40%;
+	min-width: 470px;
+	height: 245px;
+	border: 3px solid #600109;
+	font-size: 13px;
+	margin-left: 100px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.rep-pic {
+	height: 185px;
+	float: left;
+}
+
+.rep-details-container {
+	height: 185px;
+	margin-left: 200px;
+	color: #010a11;
+}
+
+.rep-details-container a {
+	color:#010a11;
+	text-decoration: underline;
+}
+
+.name {
+	font-size: 21pt;
+	font-style: bold;
+	text-transform: uppercase;
+}
+
+.office {
+	font-size: 18px;
+	font-style: bold;
+}
+
+.republican {
+	font-size: 13pt;
+	font-style: italic;
+	color: #9a1c28;
+}
+
+.democrat {
+	font-size: 13pt;
+	font-style: italic;
+	color: #054062;
+}
